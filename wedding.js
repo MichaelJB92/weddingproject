@@ -7,6 +7,8 @@ springButton.addEventListener('click', spring)
 summerButton.addEventListener('click', summer)
 fallButton.addEventListener('click', fall)
 winterButton.addEventListener('click', winter )
+//creates buttons to run specifics functions when clicked
+
 
 function spring() {
 const right = document.getElementById('rightSide')
@@ -27,3 +29,8 @@ function fall (){
   const right = document.getElementById('rightSide')
   right.style.backgroundImage = "url('images/fall.jpg')"
 }
+//creates the button functions that change the image on the right side of page when clicked
+
+
+const input = document.getElementById('')
+const city = input.value
